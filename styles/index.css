@@ -52,6 +52,7 @@ section {
     word-spacing:-.1em;
     letter-spacing:-.05em;
     word-break:break-word;
+    line-height: 1;
     -webkit-hyphens:auto;
     -ms-hyphens:auto;
     hyphens:auto;
@@ -415,4 +416,31 @@ section {
 }
 @keyframes r{
     100% {transform:rotate(120deg)}
+}
+
+@media screen and (max-width:768px) {
+    .gap {
+        height: 12.5vh;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .std p {
+        font-size: 15px;
+    }
+    .persoonlijk {
+       font-size:30px;
+    }
+    .triancle {
+        display: none;
+    }
+    .bowl {
+        display: none;
+    }
+    .animationright {
+        display: none;
+    }
+    .disapear {
+        display: none;
+    }
 }
